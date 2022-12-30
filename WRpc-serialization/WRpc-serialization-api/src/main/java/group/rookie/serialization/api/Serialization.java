@@ -8,4 +8,8 @@ package group.rookie.serialization.api;
  * @Version 1.0
  **/
 public interface Serialization {
+
+    <T> byte[] serialize(T obj);
+
+    <T> T deserialize(byte[] data, Class<T> cls);
 }
