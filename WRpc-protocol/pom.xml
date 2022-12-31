@@ -9,24 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>WRpc-codec</artifactId>
+    <artifactId>WRpc-protocol</artifactId>
 
-    <name>WRpc-codec</name>
+    <name>WRpc-protocol</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <dependencies>
         <dependency>
             <groupId>group.rookie</groupId>
-            <artifactId>WRpc-serialization-jdk</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>group.rookie</groupId>
-            <artifactId>WRpc-protocol</artifactId>
+            <artifactId>WRpc-common</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
+
 
 </project>

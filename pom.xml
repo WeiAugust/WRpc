@@ -14,6 +14,7 @@
     <module>WRpc-serialization</module>
     <module>WRpc-serialization-api</module>
     <module>WRpc-common</module>
+    <module>WRpc-protocol</module>
   </modules>
 
   <name>WRpc</name>
